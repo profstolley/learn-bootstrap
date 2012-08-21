@@ -4,7 +4,7 @@ Just a simple little way to learn Bootstrap that I'm using with my students.
 
 This uses the `config.ru` Rack configuration file from: https://github.com/raul/rack-static-boilerplate
 
-It also uses Twitter Bootstrap, v. 2.1.0:
+It also has the files from Twitter Bootstrap, v. 2.1.0: https://github.com/twitter/bootstrap
 
 To run with rack, install Ruby if you've not, and then run
 
@@ -19,5 +19,6 @@ Clone this repository, change into its directory, and fire up rack like so:
     [2012-08-21 15:00:50] INFO  WEBrick::HTTPServer#start: pid=18438 port=8888
 
 Point your favorite browser at http://localhost:8888/ and start hacking at the `public/index.html` file, which is itself just the simple template provided by Bootstrap.
- 
+
+If you want to browse your very own local copy of the Bootstrap Documentation, just point your favorite browser at http://localhost:8888/docs/
 
